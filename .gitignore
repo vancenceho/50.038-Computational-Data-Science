@@ -495,7 +495,9 @@ vignettes/*.pdf
 .Renviron
 
 # pkgdown site
-docs/
+# Ignore docs/ but allow PDF files (course materials)
+docs/*
+!docs/*.pdf
 
 # translation temp files
 po/*~
